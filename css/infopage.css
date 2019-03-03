@@ -105,10 +105,10 @@ b{
     width: 1000px;
     height: 800px;
     position: absolute;
-    top: 54%;
+    top: 55px;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -0%);
     padding: 0;
 }
 
