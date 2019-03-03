@@ -1,0 +1,207 @@
+header{
+    height: 50px;
+}
+
+/*#region nav*/
+header nav{
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 25px;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    border-bottom: solid;
+    border-bottom-color: white;
+    transition-duration: .3s;
+}
+
+nav a:hover {
+    padding: 5px;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+}
+
+nav a:active{
+    
+}
+
+.active-page-buttun {
+    border-bottom: solid;
+    border-bottom-color: rgb(111, 111, 111);
+}
+/*#endregion*/
+
+/*#region test page*/
+header h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+
+.question{
+    margin-top: 20px;
+    margin-left: 19%;
+    width: 62%;
+    height: 150px;
+}
+
+.question h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(78, 78, 78);
+    vertical-align: central;
+}
+
+b{
+    color: black;
+    font-size: 28px;
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 40%;
+    height: 60px;
+}
+
+.buttons input{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(32, 32, 32);
+    border: 1%;
+    border-color: black;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    transition: .5s;
+}
+
+.buttons input:hover{
+    background: white;
+    color: black;
+}
+
+.buttons input:active{
+    background: rgb(236, 255, 65);
+    color: black;
+}
+ /*#endregion*/
+
+.containers{
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+
+.containers a{
+    width: 400px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    transition: .5s;
+}
+
+a h2 {
+    text-transform: uppercase;
+}
+
+a h4 {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    color: rgb(78, 78, 78);
+    font-size: 20px;
+}
+
+/*.container-top-left h4{
+    margin: 5%;
+}
+
+.container-top-right h4 {
+    margin: 5%;
+}
+
+.container-bottom-left h4 {
+    margin: 5%;
+}
+
+.container-bottom-right h4 {
+    margin: 5%;
+}*/
+
+.container-top-left {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 0;
+}
+
+.container-top-left:hover {
+    top: 8%;
+    left: 8%;
+}
+
+.container-top-right {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    padding: 0;
+}
+
+.container-top-right:hover {
+    top: 8%;
+    left: 52%;
+}
+
+.container-bottom-left {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    padding: 0;
+}
+
+.container-bottom-left:hover {
+    top: 52%;
+    left: 8%;
+}
+
+.container-bottom-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+}
+
+.container-bottom-right:hover {
+    top: 52%;
+    left: 52%;
+}
