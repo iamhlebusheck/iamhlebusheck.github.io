@@ -12,19 +12,18 @@ function createButton(value, onclick, width, margin){
     button.value = value;
     button.setAttribute("onclick", onclick);
     button.style.width = width || '40%';
-    button.style.marginLeft = margin || '5%';
-    button.style.marginRight = margin || '5%';
+    button.style.margin = margin;
+    button.style.height = '60px';
     buttonsElement.appendChild(button);
 }
 
 function startTest(){
     textElement = document.getElementById("text");
     textElement.innerHTML = questions[counter];
-    document.getElementById("textContainer").style.height = "100px";
     buttonsElement = document.getElementById("buttons");
     buttonsElement.removeChild(document.getElementById("startButton"));
-    createButton('Да', "goNext(true)");
-    createButton('Нет', "goNext(false)");
+    createButton('Да', "goNext(true)", '40%', '5%');
+    createButton('Нет', "goNext(false)", '40%', '5%');
     counter++;
 }
 
@@ -32,7 +31,7 @@ function getResult(){
     removeChilds(buttonsElement);
     if(a>4){
         textElement.innerHTML = results[0];
-        createButton('Мне жаль, попробую снова(', "location.reload()", '70%', '15%');
+        createButton('Мне жаль, попробую снова(', "location.reload()", '80%', '10%');
         return;
     } 
     else if(b<12 && c>12) textElement.innerHTML = results[1];
