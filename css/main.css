@@ -51,6 +51,7 @@ section{
 }
 
 .question{
+    height: 170px;
     margin-top: 20px;
     margin-left: 19%;
     width: 62%;
@@ -161,8 +162,10 @@ section{
 }
 
 .question{
+    height: 380px;
     margin-top: 20px;
-    width: 62%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .question h2{

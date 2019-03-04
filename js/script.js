@@ -22,8 +22,8 @@ function startTest(){
     textElement.innerHTML = questions[counter];
     buttonsElement = document.getElementById("buttons");
     buttonsElement.removeChild(document.getElementById("startButton"));
-    createButton('Да', "goNext(true)", '40%', '5%');
-    createButton('Нет', "goNext(false)", '40%', '5%');
+    createButton('Да', "goNext(true)", '40%', '0 5% 0 5%');
+    createButton('Нет', "goNext(false)", '40%', '0 5% 0 5%');
     counter++;
 }
 
